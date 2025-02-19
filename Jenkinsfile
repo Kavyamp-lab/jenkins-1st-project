@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'YOUR_GIT_REPO_URL' // Replace with your repo URL
+                git branch: 'main', url: 'https://github.com/Kavyamp-lab/jenkins-1st-project' // Replace with your repo URL
             }
         }
 
